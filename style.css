@@ -1,0 +1,58 @@
+.card{
+    border: 2px solid red;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 2%;
+    width: 25%;
+}
+
+
+
+.parent{
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+.parent>.card{
+    padding: 1%;
+    margin: 1;
+    border: 2px solid black;
+    width: 20%;
+    background-color: burlywood;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border: black;
+ }
+s{
+    color: red;
+}
+u{
+    color: black;
+}
+@media only screen and (min-width:480px) and (max-width:480px){
+ .parent{
+     display: flex;
+     flex-direction: row;
+ }
+ .card{
+     width: 90%;
+     text-align: center;
+     padding-top: 6% ;
+     background-color: burlywood;
+ }
+ img{
+     height: 95%;
+ }                                            
+ content{
+     border: 2px solid black;
+     padding: 1%;
+ }
+}
+    
+
